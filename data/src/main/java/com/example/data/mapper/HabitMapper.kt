@@ -3,8 +3,6 @@ package com.example.data.mapper
 import com.example.data.local.HabitEntity
 import com.example.domain.habit.model.Habit
 import com.example.domain.habit.model.HabitFrequency
-
-class HabitMapper {
     fun HabitEntity.toDomain(): Habit = Habit(
         id = id,
         name = name,
@@ -22,4 +20,3 @@ class HabitMapper {
         color = color,
         createdAt = createdAt
     )
-}
