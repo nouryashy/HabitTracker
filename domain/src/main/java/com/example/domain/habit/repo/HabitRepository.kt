@@ -7,5 +7,5 @@ interface HabitRepository {
     fun getAllHabits(): Flow<List<Habit>>
     suspend fun addHabit(habit: Habit)
     suspend fun deleteHabit(habit: Habit)
-    suspend fun markHabitDone(habit: Habit)
+    suspend fun markHabitDone(habitID: Int)
 }
