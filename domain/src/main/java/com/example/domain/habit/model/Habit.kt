@@ -4,7 +4,7 @@ data class Habit(
     val id: Int = 0,
     val name: String,
     val frequency: HabitFrequency,
-    val isCompleteToday: Boolean = false,
+    val isCompletedToday: Boolean = false,
     val color: Long,
     val createdAt: Long = System.currentTimeMillis()
 )
