@@ -8,5 +8,4 @@ data class Habit(
     val color: Long,
     val createdAt: Long = System.currentTimeMillis()
 )
-
 enum class HabitFrequency { DAILY, WEEKLY }
